@@ -161,7 +161,7 @@ import SelectChips from "src/components/Elements/SelectChips.vue";
 import MenuComponent from "src/components/Menu.vue";
 import DateComponent from "src/components/Date.vue";
 import SquareBtn from "src/components/Buttons/SquareBtn.vue";
-import { isEmpty, forEach, get, set, has } from "lodash";
+import { isEmpty, forEach, get, set, has, reduce } from "lodash";
 
 export default {
   name: "DialogAddDebEntry",

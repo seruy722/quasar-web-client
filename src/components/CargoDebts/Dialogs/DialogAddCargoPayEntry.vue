@@ -140,7 +140,17 @@ import Separator from "src/components/Separator.vue";
 import SelectChips from "src/components/Elements/SelectChips.vue";
 import DateComponent from "src/components/Date.vue";
 import SquareBtn from "src/components/Buttons/SquareBtn.vue";
-import { isEmpty, forEach, get, set, reduce, has, size } from "lodash";
+import {
+  isEmpty,
+  forEach,
+  get,
+  set,
+  reduce,
+  has,
+  size,
+  map,
+  first,
+} from "lodash";
 
 export default {
   name: "DialogAddCargoPayEntry",
