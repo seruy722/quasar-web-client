@@ -159,7 +159,7 @@ export default {
     },
     statusFilter(value) {
       const options = getFromSettings("transportStatusOptions");
-      return get(find(options, { value }), "label");
+      return get(findLodash(options, { value }), "label");
     },
   },
 };
